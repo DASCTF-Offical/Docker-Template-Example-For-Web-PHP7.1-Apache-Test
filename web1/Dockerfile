@@ -1,4 +1,4 @@
-FROM dasctfbase/web_php71_apache
+FROM docker-template-for-web-php7.1-apache:main
 
 COPY src /var/www/html
 
